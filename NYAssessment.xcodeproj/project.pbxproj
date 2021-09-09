@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		73248284018D4A1FD9D3EB95 /* Pods_NYAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A83B1B58D7CD0A4241DD3F /* Pods_NYAssessment.framework */; };
+		9A15096626E9D5F8002EC049 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15096526E9D5F8002EC049 /* APIService.swift */; };
+		9A15096826E9D605002EC049 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15096726E9D605002EC049 /* Utility.swift */; };
 		9A38C33626E92612008B035E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C33526E92612008B035E /* AppDelegate.swift */; };
 		9A38C33826E92612008B035E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C33726E92612008B035E /* SceneDelegate.swift */; };
 		9A38C33D26E92612008B035E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A38C33B26E92612008B035E /* Main.storyboard */; };
@@ -18,9 +20,7 @@
 		9A38C37926E9291A008B035E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C36626E92919008B035E /* CustomView.swift */; };
 		9A38C37C26E9291A008B035E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C36B26E9291A008B035E /* ViewController.swift */; };
 		9A38C37D26E9291A008B035E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C36C26E9291A008B035E /* HomeViewController.swift */; };
-		9A38C38226E9291A008B035E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C37326E9291A008B035E /* APIService.swift */; };
 		9A38C38326E9291A008B035E /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C37526E9291A008B035E /* ItemModel.swift */; };
-		9A38C38526E9291A008B035E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C37826E9291A008B035E /* Utility.swift */; };
 		9A38C38826E92E54008B035E /* HomeListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C38626E92E54008B035E /* HomeListViewCell.swift */; };
 		9A38C38926E92E54008B035E /* HomeListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A38C38726E92E54008B035E /* HomeListViewCell.xib */; };
 		9A38C38B26E930BD008B035E /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38C38A26E930BD008B035E /* RoundImage.swift */; };
@@ -52,6 +52,8 @@
 /* Begin PBXFileReference section */
 		6D77FD9AD9DFA00E2EA5706F /* Pods-NYAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYAssessment.release.xcconfig"; path = "Target Support Files/Pods-NYAssessment/Pods-NYAssessment.release.xcconfig"; sourceTree = "<group>"; };
 		8671431D1104CDB33F623C66 /* Pods-NYAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYAssessment.debug.xcconfig"; path = "Target Support Files/Pods-NYAssessment/Pods-NYAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		9A15096526E9D5F8002EC049 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9A15096726E9D605002EC049 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		9A38C33226E92612008B035E /* NYAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A38C33526E92612008B035E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A38C33726E92612008B035E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,9 +70,7 @@
 		9A38C36626E92919008B035E /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		9A38C36B26E9291A008B035E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A38C36C26E9291A008B035E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		9A38C37326E9291A008B035E /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		9A38C37526E9291A008B035E /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
-		9A38C37826E9291A008B035E /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		9A38C38626E92E54008B035E /* HomeListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewCell.swift; sourceTree = "<group>"; };
 		9A38C38726E92E54008B035E /* HomeListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeListViewCell.xib; sourceTree = "<group>"; };
 		9A38C38A26E930BD008B035E /* RoundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
@@ -109,6 +109,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A15096326E9D5A6002EC049 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9A15096726E9D605002EC049 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9A15096426E9D5D1002EC049 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				9A15096526E9D5F8002EC049 /* APIService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
 		9A38C32926E92612008B035E = {
 			isa = PBXGroup;
 			children = (
@@ -134,15 +150,15 @@
 		9A38C33426E92612008B035E /* NYAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				9A15096426E9D5D1002EC049 /* WebServices */,
+				9A15096326E9D5A6002EC049 /* Utility */,
 				9A38C33526E92612008B035E /* AppDelegate.swift */,
 				9A38C33726E92612008B035E /* SceneDelegate.swift */,
 				9A38C36A26E9291A008B035E /* Controller */,
 				9A38C36526E92919008B035E /* CustomComponents */,
 				9A38C37426E9291A008B035E /* Models */,
 				9A38C36826E92919008B035E /* CollectionViewCells */,
-				9A38C37726E9291A008B035E /* Utility */,
 				9A38C36E26E9291A008B035E /* ViewModels */,
-				9A38C37226E9291A008B035E /* WebServices */,
 				9A38C33B26E92612008B035E /* Main.storyboard */,
 				9A38C33E26E92617008B035E /* Assets.xcassets */,
 				9A38C34026E92617008B035E /* LaunchScreen.storyboard */,
@@ -208,14 +224,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		9A38C37226E9291A008B035E /* WebServices */ = {
-			isa = PBXGroup;
-			children = (
-				9A38C37326E9291A008B035E /* APIService.swift */,
-			);
-			path = WebServices;
-			sourceTree = "<group>";
-		};
 		9A38C37426E9291A008B035E /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,14 +231,6 @@
 				9A38C37526E9291A008B035E /* ItemModel.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		9A38C37726E9291A008B035E /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				9A38C37826E9291A008B035E /* Utility.swift */,
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 		BB27FC7418F4C87146ABA443 /* Pods */ = {
@@ -426,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A38C37926E9291A008B035E /* CustomView.swift in Sources */,
+				9A15096626E9D5F8002EC049 /* APIService.swift in Sources */,
 				9A38C33626E92612008B035E /* AppDelegate.swift in Sources */,
 				9A38C37D26E9291A008B035E /* HomeViewController.swift in Sources */,
 				9A38C33826E92612008B035E /* SceneDelegate.swift in Sources */,
@@ -434,11 +435,10 @@
 				9A38C39C26E950D6008B035E /* DetailViewController.swift in Sources */,
 				9A38C39126E9323E008B035E /* CollectionViewDataSource.swift in Sources */,
 				9A38C39A26E939D3008B035E /* JsonSerializing.swift in Sources */,
-				9A38C38226E9291A008B035E /* APIService.swift in Sources */,
 				9A38C39326E93642008B035E /* ItemViewModel.swift in Sources */,
 				9A38C37C26E9291A008B035E /* ViewController.swift in Sources */,
+				9A15096826E9D605002EC049 /* Utility.swift in Sources */,
 				9A38C38826E92E54008B035E /* HomeListViewCell.swift in Sources */,
-				9A38C38526E9291A008B035E /* Utility.swift in Sources */,
 				9A38C38326E9291A008B035E /* ItemModel.swift in Sources */,
 				9A38C38B26E930BD008B035E /* RoundImage.swift in Sources */,
 			);
